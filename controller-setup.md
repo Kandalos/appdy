@@ -66,7 +66,7 @@ sudo ln -s /lib/x86_64-linux-gnu/libtinfo.so.6.4  /lib/x86_64-linux-gnu/libtinfo
 
 3. **Net-tools:**
 ```bash
-sudo apt-get update && sudo apt-get install net-tools -y
+sudo apt-get install net-tools -y
 
 ```
 
