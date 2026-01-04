@@ -1,6 +1,3 @@
-Here is the refined version of your guide. I have kept your original structure and technical steps while cleaning up the formatting, correcting the "Splunk" typo, and fixing the file path logic for the Linux environment.
-
----
 
 # Installing and Configuring AppDynamics on Ubuntu Server
 
