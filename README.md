@@ -24,7 +24,8 @@ Each Component has to be installed seperatly.
    ```
 
 5. Copy controller installer into ```/opt/appdynamics``` and execute the installer:
-   First create the directory /opt/appdynamics
+   
+   Create the directory /opt/appdynamics
    ```
    sudo mkdir /opt/appdynamics
    ```
@@ -34,7 +35,7 @@ Each Component has to be installed seperatly.
    ```
    Finally Copy files using scp and run platform-setup-xxx.sh
 
-
+6.
 
 ---
 
