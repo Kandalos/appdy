@@ -17,10 +17,17 @@ Each Component has to be installed seperatly.
    sudo ufw allow 9191/tcp
    sudo ufw allow 8090/tcp
    sudo ufw reload
-
+   ```
+4. Set timedatectl
+   ```
+   sudo timedatectl set-timezone America/New_York
    ```
 
+5. Copy controller installer into /opt/appdynamics and execute the installer
 
+
+
+---
 
 2-Event Services:
 -
@@ -31,6 +38,9 @@ Each Component has to be installed seperatly.
    ```
    sudo ufw allow 9080/tcp
    sudo ufw reload
-   
    ```
-   
+4. Set timedatectl
+   ```
+   sudo timedatectl set-timezone America/New_York
+   ```
+
