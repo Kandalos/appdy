@@ -24,4 +24,17 @@ Event Services:
    ```
    scp ~/.ssh/appd-ssh.pub user@host:~/
    ```
+6. Create ```/opt/appdynamics``` :
+   Create the directory and give the current user ownership:
+   ```
+   mkdir /opt/appdynamics
+   chown -R appdy:appdy /opt/appdynamics
+   ```
+7. Add the host in Enterprise Console
+   for ssh private key you need the key in controller host:
+   ```
+   cat ~/.ssh/appd-ssh
+   ```
+8. Install the Events Services using the installer in enterprise console
+   
    
