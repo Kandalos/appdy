@@ -12,3 +12,16 @@ Event Services:
    ```
    sudo timedatectl set-timezone America/New_York
    ```
+5. Create The SSH Key
+   On Enterprise Console Server do:
+   ```
+   mkdir -p ~/.ssh
+   chmod 700 ~/.ssh
+   cd ~/.ssh
+   ssh-keygen -t rsa -b 2048 -v -m pem -f appd-ssh
+   ```
+   then copy the publickey into your events service host:
+   ```
+   scp ~/.ssh/appd-ssh.pub user@host:~/
+   ```
+   
