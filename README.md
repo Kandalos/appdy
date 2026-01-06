@@ -8,9 +8,9 @@ An AppDynamics deployment consists of three mission-critical components that wor
 
 | Component | Responsibility | Status |
 | --- | --- | --- |
-| **Controller & Console** | The central management hub and UI for all telemetry data. |  [Manual Guide](https://www.google.com/search?q=docs/Controller_Installation.md) |
-| **Events Service** | A high-performance analytics store for logs and transaction data. | [Manual Guide](https://www.google.com/search?q=docs/Events_Service.md) |
-| **EUM Server** | Processor for End User Monitoring (Browser & Mobile) telemetry. |  [Manual Guide](https://www.google.com/search?q=docs/EUM_Server.md) |
+| **Controller & Console** | The central management hub and UI for all telemetry data. |  [Manual Guide] |
+| **Events Service** | A high-performance analytics store for logs and transaction data. | [Manual Guide] |
+| **EUM Server** | Processor for End User Monitoring (Browser & Mobile) telemetry. |  [Manual Guide]|
 
 ---
 
