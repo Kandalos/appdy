@@ -1,0 +1,4 @@
+Layer,Tool,Responsibility
+Infrastructure,Terraform,"Creates the VMs in AWS, Azure, or VMware."
+Configuration,Ansible,"Installs the OS requirements (libaio, Java) and the AppDynamics Controller."
+Self-Healing,Event-Driven Ansible,Watches for errors and automatically triggers the Ansible fix.
